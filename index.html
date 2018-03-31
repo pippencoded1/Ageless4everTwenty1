@@ -8,7 +8,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
-        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
         <script src="pillsalad.js"></script>
     
     
@@ -18,23 +17,24 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
 
         <!DOCTYPE html>
         <body>
         
         <div class="container">
+
+            <!-- Row 1 -->
+
             <div class="row">
-                <div class="text-center col-md-4 col-sm-6">
-                    <img src="http://placehold.it/340/250">
-                </div>
-                <div class="col-md-8 col-sm-6">
+                
+                <div class="col-md-12 col-sm-8">
                     <h1>Ageless:4everTw3ntY1</h1>
                     <div id="custom-search-input">
                             <div class="input-group col-md-12">
-                                <input type="text" class="  search-query form-control" placeholder="Search" />
+                                <input type="text" class="search-query form-control" id="usertext" placeholder="Input your slang here" />
                                 <span class="input-group-btn">
-                                    <button class="btn btn-danger" type="button">
+                                    <button class="btn btn-danger" type="button" id="submit">
                                         <span class=" glyphicon glyphicon-search"></span>
                                     </button>
                                 </span>
@@ -42,15 +42,30 @@
                         </div>
                     
                 </div>
+                <div class="col-md-12 col-sm-8" id="urbantext">
+                        <p>
+                        hot line bling bop it mostly known as style, unique part of what makes you different than the other players in a cool way. the way you carry yourself(confidence), your gear(clothes), and anythin else that is pimpin!
+                        </p>
+                    </div>
             </div>
+
+            <!-- ROW 2 -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-8" id="youtube">
+                    <iframe width="920" height="350" src="https://www.youtube.com/embed/uo14xGYwWd4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+               
+                
+            </div>
+
         </div>
         
        
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+       
             
-            </body>
+            
        
 </body>
 </html>
