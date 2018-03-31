@@ -16,6 +16,7 @@
         $("#submit").click(function () {
         var xhr = $.getJSON("https://api.urbandictionary.com/v0/define?term=" + term);
         xhr.done(function (response) {
+            console.log(response)
            
     //  close response function
         });
