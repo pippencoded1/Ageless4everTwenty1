@@ -14,7 +14,7 @@
         var term = $("#usertext").val().trim();
 
         $("#submit").click(function () {
-        var xhr = $.getJSON("http://api.urbandictionary.com/v0/define?term=" + term);
+        var xhr = $.getJSON("https://api.urbandictionary.com/v0/define?term=" + term);
         xhr.done(function (response) {
            
     //  close response function
