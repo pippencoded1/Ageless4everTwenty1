@@ -1,26 +1,5 @@
-
-/* #header{
-    font-size: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    color: red;
-    
-} */
-
-
-
-body{ 
-    /* background: url(https://cdn.pixabay.com/photo/2016/12/05/19/43/pill-1884775__340.jpg);
-    background: url(https://24.hu/app/uploads/2015/07/gyogyszer.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-
-}
-
 html {
-    background: url(https://24.hu/app/uploads/2015/07/gyogyszer.jpg);
+    background: url(https://i.imgur.com/rwElyFd.gif);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,9 +7,19 @@ html {
     color: #000;
   
   }
+
+  #youtube {
+    margin-top:15px;
+    clear: both;
+  }
+
+  #urbantext {
+    word-wrap: break-word;
+    margin-top:15px;
+  }
   
   body {
-    /* background: url(https://24.hu/app/uploads/2015/07/gyogyszer.jpg); */
+    
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,12 +40,6 @@ html {
     max-width: 100%;
   }
   
-  /* .footer {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #000;
-    padding-top: 15px;
-    margin-top: 10px;
-  } */
   
   .navbar {
     background-color: rgba(255, 255, 255, 0.8);
