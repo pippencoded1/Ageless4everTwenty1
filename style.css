@@ -1,5 +1,7 @@
 html {
-    background: url(https://i.imgur.com/rwElyFd.gif);
+    /* background: url(https://i.imgur.com/rwElyFd.gif); */
+    /* background: url(https://ak2.picdn.net/shutterstock/videos/1167682/thumb/1.jpg?i10c=img); */
+    background: url(http://wallpaper-gallery.net/images/dope-wallpapers-tumblr/dope-wallpapers-tumblr-15.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,9 +10,7 @@ html {
   
   }
 
-  
 
- 
 
   #youtube {
     margin-top:15px;
