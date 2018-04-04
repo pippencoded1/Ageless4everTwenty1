@@ -10,7 +10,10 @@ html {
   
   }
 
+body {
+  font-family: 'Playfair Display', serif;
 
+}
 
   #youtube {
     margin-top:15px;

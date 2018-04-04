@@ -5,6 +5,9 @@
         $("#submit").click(function () {
         //clear out the div
             $("#urbantext").html("");
+
+        // "un-hide" the second div
+        $("#youtubeDiv").removeAttr("style");
             //define variables equal to user input
         var term = $(".form-control").val().trim();
         var video = $(".form-control").val().trim();
