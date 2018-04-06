@@ -1,3 +1,3 @@
 # Ageless4everTwenty1
 
-A new application that utilizes Urban Dictionary terms and searches Youtube for related videos.
+A new application that defines colloquialisms and generates related Youtube videos for further clarity.
