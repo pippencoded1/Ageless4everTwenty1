@@ -15,7 +15,7 @@ $(document).ready(function() {
 
  //grabs everything added & puts it on the page w/o refreshing
  database.ref().on("child_added", function(childSnapshot, prevChildKey){
-  $("#recent").append( " <p> "  +  childSnapshot.val()  +  " </p> " );
+  $("#recent").append( " "  +  childSnapshot.val()  +  " " + "|" );
 
  
  });
@@ -29,6 +29,7 @@ $(document).ready(function() {
 
       // "un-hide" the second div
       $("#youtubeDiv").removeAttr("style");
+      $("#definition").removeAttr("style");
       //define variables equal to user input
       var term = $(".form-control").val().trim();
       var video = $(".form-control").val().trim();
