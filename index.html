@@ -9,6 +9,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+
         <script src="pillsalad.js"></script>
     
     
@@ -24,7 +26,7 @@
 
         <body>
         
-        <div class="container animated fadeInDown">
+        <div class="container animated zoomIn">
 
             <!-- Row 1 -->
 
@@ -47,11 +49,17 @@
                         </div>
                     
                 </div>
-                <div class="col-md-12 col-sm-8" id="urbantext">
-                        
-                    </div>
+                <div class= "col-md-12 col-sm-8" id="recent"> 
+                    Recent Searches
+                </div>
+
             </div>
 
+            <div class="row" style="display:none;" id="definition" >
+                <div class="col-md-12 col-sm-8" id="urbantext">
+                        
+                </div>
+            </div>
             <!-- ROW 2 -->
 
             <div class="row" style="display:none;" id="youtubeDiv" >
