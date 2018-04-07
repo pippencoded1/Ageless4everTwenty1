@@ -1,7 +1,7 @@
 # SlangTube
 
-Group Name: AMP group
-Members: Ali Huda, Marissa Pippen, Madinah Nelson
+* Group Name: AMP group
+* Members: Ali Huda, Marissa Pippen, Madinah Nelson
 
 A new application that defines colloquialisms and generates related Youtube videos for further clarity.
 
