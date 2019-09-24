@@ -11,18 +11,27 @@ html {
   }
 
 body {
-  font-family: 'Playfair Display', serif;
-
+  font-family: 'Times New Roman', serif;
 }
 
   #youtube {
-    margin-top:15px;
-    clear: both;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
   }
 
-  /* #recent {
-    display: inline-flex;
-  } */
+  #youtube iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  #youtube-4x3{
+  padding-top: 75%;
+  }
 
   #urbantext {
     word-wrap: break-word;
@@ -30,8 +39,6 @@ body {
   }
   
   body {
-    
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
