@@ -14,10 +14,9 @@ $(document).ready(function() {
  var database = firebase.database();
 
  //grabs everything added & puts it on the page w/o refreshing
- database.ref().limitToLast(5).on("child_added", function(childSnapshot, prevChildKey){
-  $("#recent").append( " "  +  childSnapshot.val()  +  " " + "|" );
   
- 
+  database.ref().limitToLast(5).on("child_added", function(childSnapshot, prevChildKey){ 
+  $("#recent").append( " "  +  childSnapshot.val()  +  " " + "|" );
  });
 
 
